@@ -11,7 +11,7 @@ Retorne se o número é par ou ímpar.
 
 
 def multiplica(*args):
-    total = 0
+    total = 1
 
     for numero in args:
         total *= numero
