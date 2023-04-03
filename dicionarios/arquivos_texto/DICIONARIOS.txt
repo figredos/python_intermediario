@@ -24,7 +24,8 @@ DICIONARIOS
 		sendo atualizada constantemente.
 
 - MÉTODOS ÚTEIS
-		Dicionários, como muitas coisas em python, são um tipo de objeto, e assim como outros objetos ( ver POO)			possuem métodos. Estes são alguns dos mais úteis de dicionários:
+		Dicionários, como muitas coisas em python, são um tipo de objeto, e assim como outros objetos (ver POO)
+		possuem métodos. Estes são alguns dos mais úteis de dicionários:
 					
 					~ len - informa quantas chaves o dicionário possui
 					~ keys - é um iterável para as chaves
