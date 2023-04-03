@@ -17,6 +17,6 @@ diferenca_1 = set_1 - set_2
 diferenca_2 = set_1.difference(set_2)
 
 # Diferença simétrica - ^
-diferenca_1 = set_1 ^ set_2
+diferenca_simetrica_1 = set_1 ^ set_2
 # ou
-diferenca_2 = set_1.symmetric_difference(set_2)
+diferenca_simetrica_2 = set_1.symmetric_difference(set_2)
