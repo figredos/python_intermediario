@@ -45,8 +45,16 @@ DICIONARIOS
 		apenas um dicionário afete ambos. Para essa função existe o método .deepcopy(), que copia todas as estruturas 
 		de um dicionário para outro, sejam essas mutáveis ou não.
 
-	
 
+- EMPACOTANDO E DESEMPACOTANDO 
+		É possível fazer o empacotamento e desempacotamteno de um dicionário em python. Para fazer o desempacotamento
+		e até mesmo o empacotamento de um dicionário em outro, ou fazer a união de dois dicionários em um só, podemos 
+		usar '**' antes do nome do dicionário, fazendo com que o desempacotamento do dicionário.
+
+- **kwargs - ARGUMENTOS NOMEADOS
+		Argumentos nomeados são um tipo de dado em python que tem um formato de dicionário, ou seja, possui chave e 
+		valor, ou seja são nomeados.
+		
 
 
 
