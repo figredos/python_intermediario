@@ -33,3 +33,6 @@ SETS
 					~ & (intersecção): Valores em comum entre dois sets
 					~ - (diferença): Itens presentes apenas no set da esquerda
 					~ ^ (diferença simétrica): Itens que não estão em ambos os sets 
+
+- SET COMPREHENSION
+        É uma forma simplificada de criar sets. VER LIST COMPREHENSION
