@@ -54,9 +54,9 @@ DICIONARIOS
 - **kwargs - ARGUMENTOS NOMEADOS
 		Argumentos nomeados são um tipo de dado em python que tem um formato de dicionário, ou seja, possui chave e 
 		valor, ou seja são nomeados.
-		
 
-
+- DICT COMPREHENSION
+        É uma forma simplificada de criar dicts. VER LIST COMPREHENSION
 
 
 
