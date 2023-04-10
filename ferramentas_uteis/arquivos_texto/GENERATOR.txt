@@ -10,3 +10,7 @@ GENERATOR
 - COMO IMPLEMENTAR
         Generators podem ser implementados usando ao invés de return numa função, yield. Ou também usando parênteses numa
         list comprehension ou dado do tipo.
+
+- GENERATOR FUNCTIONS
+        Em generator functions, onde existe um "retorno" yield, a função age como iterável, ou seja, ela não é executada
+        de uma vez, mas sim a cada vez que é iterada.
