@@ -4,6 +4,7 @@ ITERATOR
         Iterators, são as ferramentas responsáveis por iterar a respeito de elementos de um objeto. Os iterators, são
         responsáveis apenas por "saber" o próximo valor daquilo que ele está iterando sobre. Iterators fornecem uma
         maneira de acessar sequencialmente os elementos de um objeto agregado sem expor sua representação subjacente.
+        Para algo ser iterável, deve possuir os métodos '__iter__' e '__next__'.
 
 - COMO IMPLEMENTAR UM ITERATOR
         Dentre as formas mais simples e usuais de implementar iterators, é usando loops 'for', que nada mais nada menos
