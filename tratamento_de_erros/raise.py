@@ -5,7 +5,7 @@ def erro_divide_por_zero(numero):
     return True
 
 
-# Função que gera um erro se o parâmetro numero for diferente de int ou float
+# Função que gera um erro se o parâmetro numero diferir de int ou float
 def deve_ser_int_ou_float(numero):
     if not isinstance(numero, (float, int)):
         raise TypeError(
