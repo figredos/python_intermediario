@@ -20,3 +20,6 @@ FUNÇÕES DECORADORAS
         É possível usar decoradores que recebem parâmetros. Isso é feito, utilizando uma função decoradora no próprio
         decorador. Fazendo isso o decorador menor se encontra no escopo do decorador maior, da mesma forma que a função
         interna está no escopo do decorador menor.
+
+    Obs.: Pensar em decoradores, como literalmente decoradores, uma vez que a função deles é adicionar coisas a funções
+          com o intuito de adicionar, restringir, alterar, remover coisas de funções.
