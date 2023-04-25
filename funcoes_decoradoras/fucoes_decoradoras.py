@@ -17,6 +17,7 @@ def creates_function(func):
 def inverts_string(string):
     return string[::-1]
 
+
 # Criando a função que checa o parâmetro entregue
 def is_string(param):
     if not isinstance(param, str):
