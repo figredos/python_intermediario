@@ -1,0 +1,11 @@
+FUNÇÕES DECORADORAS
+
+
+- O QUE SÃO
+        Decorators, ou funções decoradoras são uma forma de executar funções mais facilmente, principalmente quando
+        existe uma função de higher order (que retorna outra função) com closure.
+
+- COMO IMPLEMENTAR E SYNTAX SUGAR
+        Syntax sugar (açúcar sintático), é o nome dado à forma com a qual são implementados os decoradores em python.
+        É feito usando um "@", seguido pelo nome da função a qual deve ser decorada. É chamado assim pois são a forma
+        usada para simplificar o código.
