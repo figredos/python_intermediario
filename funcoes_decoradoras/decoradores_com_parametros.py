@@ -1,4 +1,4 @@
-# Criando uma função que decora outras
+# Criando uma função que decora um decorador
 def decorator_decorator(*args, **kwargs):
     def decorator(func):
         def internal(*args, **kwargs):
@@ -7,9 +7,11 @@ def decorator_decorator(*args, **kwargs):
             return result
 
         return internal
+
     return decorator
 
 
+# Decorando a função
 @decorator_decorator(1, 2, 3)
 def soma(x, y):
     return x + y
