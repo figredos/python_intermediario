@@ -19,7 +19,8 @@ FUNÇÕES DECORADORAS
 - DECORADORES COM PARÂMETROS
         É possível usar decoradores que recebem parâmetros. Isso é feito, utilizando uma função decoradora no próprio
         decorador. Fazendo isso o decorador menor se encontra no escopo do decorador maior, da mesma forma que a função
-        interna está no escopo do decorador menor.
+        interna está no escopo do decorador menor. Decoradores são aplicados em order decrescente, sendo que o primeiro
+        a ser executado será o mais de baixo.
 
     Obs.: Pensar em decoradores, como literalmente decoradores, uma vez que a função deles é adicionar coisas a funções
           com o intuito de adicionar, restringir, alterar, remover coisas de funções.
