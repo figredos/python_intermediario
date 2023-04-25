@@ -11,8 +11,7 @@
 
 def zipper(list_1, list_2):
     is_list(list_1, list_2)
-    new_list = [(list_1[i], list_2[i]) for i in range(min(len(list_1), len(list_2)))]
-    return new_list
+    return [(list_1[i], list_2[i]) for i in range(min(len(list_1), len(list_2)))]
 
 
 def is_list(*args):
