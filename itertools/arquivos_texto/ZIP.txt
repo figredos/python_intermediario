@@ -7,4 +7,5 @@ ZIP
 
 - ZIP_LONGEST
         Ferramenta do módulo itertools, que exerce a mesma função do zip, contudo, ao invés de usar o tamanho do iterável
-        menor, ele usa o iterável maior.
+        menor, ele usa o iterável maior. Quando existem uma lista com tamanho maior que a outra, ele agrega um elemento
+        none à o elemento que falta na lista menor.
