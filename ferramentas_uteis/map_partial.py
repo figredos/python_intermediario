@@ -2,7 +2,7 @@
 from functools import partial
 
 
-# Mapeamento simples de dados
+# Função print_iter imprime iteráveis
 def print_iter(iterator):
     print(*list(iterator), sep='\n')
     print()
