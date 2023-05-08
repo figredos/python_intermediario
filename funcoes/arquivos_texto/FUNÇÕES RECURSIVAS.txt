@@ -1,0 +1,14 @@
+FUNÇÕES RECURSIVAS
+
+
+- O QUE SÃO
+        Funções recursivas são funções que usam de si mesmas dentro do seu escopo. Ou seja, caso alguma condição, checada
+        dentro da função seja ou não verdadeira, a função repete a sua chamada dentro de si mesma, possibilitando um uso
+        recursivo. São úteis para dividir problemas grandes em partes menores. Toda função recursiva deve ter, um problema
+        que possa ser dividido em partes menores (calcular os digitos de validação de um cpf), um caso recursiva que resolve
+        o pequeno problema e um caso base (para que a função interrompa a execução após um ponto).
+
+- IMPLEMENTAÇÃO
+        A implementação de uma função recursiva é extremamente simples, é necessário apenas usar a função dentro de seu
+        próprio escopo. Contudo, é importante impedir que a função execute ininterruptamente, usando algum tipo de checagem
+        dentro do seu escopo, antes de fazer a recursividade.
