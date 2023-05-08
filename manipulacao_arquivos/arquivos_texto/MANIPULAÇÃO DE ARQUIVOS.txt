@@ -21,6 +21,7 @@ MANIPULAÇÃO DE ARQUIVOS
         ->.writelines() - escreve várias linhas
         ->.readlines() - lê linha
         ->.readline() - lê várias linhas
+        ->.seek() - muda a posição do cursor
 
     ---> MÓDULO OS
         ->os.remove ou os.unlink - apaga o arquivo
