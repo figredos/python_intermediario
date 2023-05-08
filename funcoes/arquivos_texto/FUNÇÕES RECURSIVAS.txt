@@ -12,3 +12,10 @@ FUNÇÕES RECURSIVAS
         A implementação de uma função recursiva é extremamente simples, é necessário apenas usar a função dentro de seu
         próprio escopo. Contudo, é importante impedir que a função execute ininterruptamente, usando algum tipo de checagem
         dentro do seu escopo, antes de fazer a recursividade.
+
+- STACK OVERFLOW
+        Stack overflow é o nome dado à situação onde uma função recursiva excede um limite de recursões ininterruptas,
+        isso ocorre para que o python não "afogue" a memória do computador. Isso pode ocorrer pois o código salva os
+        valores da função dentro da memória do computador, uma vez que o código está rodando de forma ininterrupta,
+        eventualmente, o valor salvo será extremamente grande de forma a causar danos à capacidade da máquina de
+        salva-lo.
