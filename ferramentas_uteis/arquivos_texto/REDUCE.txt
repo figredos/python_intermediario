@@ -1,0 +1,18 @@
+REDUCE
+
+- O QUE É
+        Reduce é uma função do pacote functools que faz a redução de um iterável em um valor. Por exemplo, suponha que
+        gostaríamos de somar os elementos da lista [1, 2, 3, 4, 5] e para isso, gostariamos de usar um reduce. Isso seria
+        feito da seguinte maneira;
+                                           reduce(lambda x, y: x+y, [1, 2, 3, 4, 5])
+
+                            Resultando no seguinte valor:
+                                                        15
+
+                            A função pode receber também um valor inicial, após o iterável:
+                                           reduce(lambda x, y: x+y, [1, 2, 3, 4, 5], 1)
+
+                            A partir da funçao acima, chegamos ao valor 16, porque a soma é feita a partir do valor 1.
+
+    Obs.: É uma boa prática o uso do acumulador, pois evita erros relacionados à soma entre dois tipos diferentes de dados.
+
