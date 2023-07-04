@@ -23,6 +23,7 @@ são encontrados códigos a respeito das seguintes ferramentas do python:
   - Funções map e partial;
   - Função reduce;
   - Argumentos truthy e falsy, para entendimento de valores Booleanos;
+  - Anotações de funções e parâmetros;
   
 - _**Funções**_
   - Closure, para adiamento de execução de funções;
