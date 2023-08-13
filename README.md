@@ -12,6 +12,11 @@ são encontrados códigos a respeito das seguintes ferramentas do python:
   - Manipulação de dicionários;
   - Alguns dos métodos mais relevantes de dicionários;
   - Um breve resumo de cópias (deep copy e shallow copy);
+
+- _**Docstrings**_
+  - main
+  - uma_linha, descrevendo descrição em uma linha
+  - varias_linhas, descrevendo descrição em varias linhas
   
 - _**Ferramentas úteis**_
   - dir, hasattr e getattr, para manipulação de atributos;
