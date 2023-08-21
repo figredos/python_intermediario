@@ -73,7 +73,5 @@ são encontrados códigos a respeito das seguintes ferramentas do python:
   - try, except;
 
 ### **Notas**
-Os tópicos acima possuem, em grande parte, uma pasta contendo arquivos texto que descrevem e explicam aspectos dos códigos
+Os tópicos acima possuem, na maioria, uma pasta contendo arquivos texto que descrevem e explicam aspectos dos códigos
 relatados no tópico em questão. Alguns dos tópicos possuem também exercicios para reforço dos conteúdos abordados.
-
-
